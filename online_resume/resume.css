@@ -1,4 +1,50 @@
 p {
-    color: black;
+    color: white;
     font-size: 12;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    size-adjust: 10px
+}
+
+:root {
+    text-color: white;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 20%
+} 
+
+.container {
+    max-width: 1450px;
+    width: 95%%;
+    margin: auto;
+    display: grid;
+    padding: 5;
+}
+
+.jobTitle {
+    text-emphasis: bold;
+}
+
+
+body {
+    border-width: 1px;
+    border-style: dashed;
+    border-color: red;
 }
