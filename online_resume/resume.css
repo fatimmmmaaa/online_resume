@@ -1,9 +1,11 @@
 p {
-    color: white;
+    color: beige;
     font-size: 12;
 }
 
 * {
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -13,17 +15,13 @@ img {
     size-adjust: 10px
 }
 
-:root {
-    text-color: white;
-}
-
 html {
     font-size: 12px;
 }
 
 body {
     background-color: black;
-    color: white;
+    color: beige;
 }
 
 img {
@@ -48,3 +46,23 @@ body {
     border-style: dashed;
     border-color: red;
 }
+
+.projects {
+    color: gray;
+    text-decoration: underline;
+    font-size: large;
+
+}
+
+.experience {
+    color: gray;
+    text-decoration: underline;
+    font-size: large;
+}
+
+.jobTitle {
+    color: gray;
+    text-decoration: underline;
+    font-size: large;
+}
+
